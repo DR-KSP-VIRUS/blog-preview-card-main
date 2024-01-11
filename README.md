@@ -35,8 +35,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/DR-KSP-VIRUS/blog-preview-card-main.git)
+- Live Site URL: [live site URL here](https://blog-preview-card-main-woad.vercel.app/)
 
 ## My process
 I used the developer tools in the chrome to monitor the alignment and position of elements in their containers.
@@ -52,9 +52,9 @@ I used `CSS3` flexbox to postion the content to the right positions.
 ### What I learned
 I realised there was `fonts` in the folder. This pushed me to learn how to include `web fonts` in local development.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I also got a great suggestion from [Daniel Moraes Mariz](@danielmrz-dev) on [Frontend Mentor](https://www.frontendmentor.io/) on how to write semantic HMTL for SEO purposes
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [SAMPSON KUMA KONJA](https://blog-preview-card-main-woad.vercel.app/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)

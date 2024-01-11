@@ -32,7 +32,7 @@
     src: url("../fonts/static/Figtree-SemiBold.ttf") format("truetype");
 }
 
-section{
+main{
     background-color: var(--Yellow);
     display: flex;
     align-items: center;
