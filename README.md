@@ -29,7 +29,7 @@ Users are able to:
 
 ### Screenshot
 
-![Design preview for the Blog preview card coding challenge for Desktop](./screenshot.jpg)
+![Design preview for the Blog preview card coding challenge for Desktop](./design/desktop-solution.jpeg)
 
 ![Design preview for the Blog preview card coding challenge for mobile](./design/mobile-solution.jpeg)
 
