@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    font-style: normal;
+    display: block;
+    font-weight: 800;
+    src: url("../fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    font-style: normal;
+    display: block;
+    font-weight: 600;
+    src: url("../fonts/static/Figtree-SemiBold.ttf") format("truetype");
+}
+
+section{
+    background-color: var(--Yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--White);
+    border: 1px solid #000;
+    max-width: 345px;
+    width: 100%;
+    padding: .8rem;
+    border-radius: 20px;
+    box-shadow: 5px 4px #000;
+    margin: auto;
+}
+
+.card:hover{
+    background-color: var(--White);
+    border: 1px solid #000;
+    max-width: 345px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 6px 5px #000;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header figure{
+    padding: 0;
+}
+
+.card-header img{
+    border-radius: 12px;
+    width: 320px;
+    padding: 0;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-content button{
+    background-color: var(--Yellow);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: .9rem;
+    margin-top: 0.9rem;
+    font-family: 'Figtree-ExtraBold';
+    cursor: pointer;
+}
+
+.card-content h2{
+    margin: .9rem 0;
+    font-family: 'Figtree-ExtraBold';
+    font-size: 22px;
+    transition: all 0.72s ease-in-out;
+}
+
+.card-content .text-gray{
+    color: var(--Grey);
+    font-family: 'Figtree-SemiBold';
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: .9rem;
+}
+
+
+.card-content P{
+    font-family: 'Figtree-SemiBold';
+    font-size: 16px;
+    line-height: 21px;
+}
+.card-content h2:hover{
+    cursor: pointer;
+    color: var(--Yellow);
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-footer img{
+    width: 30px;
+}
+
+.card-footer p{
+    font-family: 'Figtree-ExtraBold';
+    font-size: 16px;
+}
+
+@media screen and (min-width:1440px) {
+    .card{
+        background-color: var(--White);
+        border: 1px solid #000;
+        max-width: 400px;
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 5px 4px #000;
+    }
+
+    .card-header img{
+        border-radius: 12px;
+        width: 370px;
+        padding: 0;
+    }
+    
+}
